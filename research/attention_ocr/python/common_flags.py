@@ -110,6 +110,10 @@ def define():
 
   flags.DEFINE_bool('average_across_timesteps', False,
                     'divide the returned cost by the total label weight')
+
+  flags.DEFINE_string('p', '',
+                      'dummy flag to allow for running unitest discover with the pattern -p')
+
   # yapf: enable
 
 
